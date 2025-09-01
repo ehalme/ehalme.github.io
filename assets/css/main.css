@@ -225,13 +225,13 @@ input, select, textarea {
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
-
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		/* background: #348cb2 with bg.jpg */
+		background: #0F172A url("images/starry-space-seamless-pattern-sky-stars-in-galaxy-vector.jpg") left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
 		opacity: 1;
-		position: fixed;
+		position: relative;
 		top: 0;
 	}
 
