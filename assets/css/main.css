@@ -227,7 +227,7 @@ input, select, textarea {
 	/* Set your background with this */
 		/* background: #348cb2 with bg.jpg */
 		background: #0F172A url("images/starry-space-seamless-pattern-sky-stars-in-galaxy-vector.jpg") left;
-		background-repeat: repeat-x;
+		background-repeat: repeat;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -312,7 +312,7 @@ input, select, textarea {
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.2;
 		}
 	}
 
@@ -322,7 +322,7 @@ input, select, textarea {
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.2;
 		}
 	}
 
@@ -332,7 +332,7 @@ input, select, textarea {
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.2;
 		}
 	}
 
@@ -342,7 +342,7 @@ input, select, textarea {
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.2;
 		}
 	}
 
@@ -1084,14 +1084,14 @@ input, select, textarea {
 
 	.profile-pic {
 		margin-bottom: 1rem;
-		margin-top: 1.5rem;
+		margin-top: 2rem;
 	}
 
 	.profile-pic img {
-		width: 300px;       /* adjust size */
-		height: 300px;
+		width: 20rem;       /* adjust size */
+		height: 20rem;      /* adjust size */
 		object-fit: cover;
 		border-radius: 50%; /* makes it circular */
-		border: 3px solid white; /* optional border */
-		box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* optional shadow */
+		border: 0.2rem solid white; /* optional border */
+		/* box-shadow: 0 4px 10px rgba(0,0,0,0.3); */
 	}
